@@ -38,8 +38,6 @@
     }
 
     main {
-      max-width: 800px;
-      margin: 0 auto;
       padding: 20px;
     }
 
@@ -54,7 +52,6 @@
     }
 
     .banner h2 {
-      color: #fff;
       font-size: 24px;
       animation: moveLeftRight 3s ease-in-out infinite alternate;
     }
@@ -99,6 +96,21 @@
         transform: translateX(0);
       }
     }
+
+    /* Responsive CSS */
+    @media only screen and (max-width: 600px) {
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      main {
+        max-width: 90%;
+        margin: 0 auto;
+      }
+    }
   </style>
 </head>
 <body>
@@ -121,7 +133,6 @@
         <p>Welcome to TransistorGyan! I'm Arunabha Mishra, an aspiring electronics enthusiast embarking on a journey of exploration in my 2nd Semester. This project, crafted from the depths of my curiosity and fueled by a thirst for knowledge, delves into the intricate realm of Electronics. With a humble foundation in basic HTML and CSS, I've endeavored to create a digital oasis where enthusiasts like myself can quench their thirst for understanding.</p>
         <p>This mini-project, though modest in its scope, serves as a testament to the power of curiosity and the boundless potential of learning. As I navigate through the currents of my academic journey, I aim to infuse each project with a touch of uniqueness and a sprinkle of innovation.</p>
         <p>If you're keen to explore more of my projects and insights, feel free to check out my GitHub profile at <a href="https://github.com/MishraJi-Devloper">MishraJi-Devloper</a> and connect with me on LinkedIn at <a href="https://www.linkedin.com/in/arunabha-mishra-a35128245/">Arunabha Mishra</a>.</p>
-        
     </section>
     <section class="social-media">
       <a href="https://github.com/MishraJi-Devloper"><i class="fab fa-github"></i></a>
