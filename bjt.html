@@ -3,100 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BJT</title>
+    <style>
+        /* Reset some default browser styles */
+        body,
+        h1,
+        p,
+        ul {
+          margin: 0;
+          padding: 0;
+        }
+
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f8f8f8;
+          color: #333;
+        }
+
+        /* Header styling */
+        .h1-banner-title {
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 20px 0;
+        }
+
+        /* Article styling */
+        article {
+          background-color: #fff;
+          padding: 20px;
+          margin-top: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article p {
+          margin-bottom: 15px;
+        }
+
+        article h2 {
+          margin-top: 20px;
+          color: #333;
+        }
+
+        /* Table of Contents styling */
+        table {
+          width: 100%;
+          margin-top: 20px;
+          border-collapse: collapse;
+        }
+
+        table td {
+          padding: 10px;
+          border-bottom: 1px solid #ccc;
+        }
+
+        table ul {
+          margin: 0;
+          padding: 0;
+        }
+
+        table ul li {
+          list-style: none;
+        }
+
+        /* FAQ section styling */
+        .faq-section {
+          margin-top: 20px;
+          background-color: #f9f9f9;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-heading {
+          color: #333;
+          font-size: 24px;
+          margin-bottom: 15px;
+        }
+
+        .faq-item {
+          margin-bottom: 15px;
+        }
+
+        .faq-item-ques {
+          font-weight: bold;
+        }
+
+        .faq-num {
+          font-weight: bold;
+          font-size: 18px;
+        }
+
+        /* Responsive Styles */
+        @media only screen and (max-width: 600px) {
+          article {
+            padding: 10px;
+          }
+
+          article h2 {
+            font-size: 20px;
+          }
+
+          table td {
+            padding: 5px;
+          }
+
+          .faq-heading {
+            font-size: 20px;
+          }
+
+          .faq-item-ques {
+            font-size: 16px;
+          }
+
+          .faq-num {
+            font-size: 14px;
+          }
+        }
+    </style>
 </head>
-<style>
-    /* Reset some default browser styles */
-body,
-h1,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
-  color: #333;
-}
-
-/* Header styling */
-.h1-banner-title {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-/* Article styling */
-article {
-  background-color: #fff;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-article p {
-  margin-bottom: 15px;
-}
-
-article h2 {
-  margin-top: 20px;
-  color: #333;
-}
-
-/* Table of Contents styling */
-table {
-  width: 100%;
-  margin-top: 20px;
-  border-collapse: collapse;
-}
-
-table td {
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-table ul {
-  margin: 0;
-  padding: 0;
-}
-
-table ul li {
-  list-style: none;
-}
-
-/* FAQ section styling */
-.faq-section {
-  margin-top: 20px;
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.faq-heading {
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-
-.faq-item {
-  margin-bottom: 15px;
-}
-
-.faq-item-ques {
-  font-weight: bold;
-}
-
-.faq-num {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-</style>
 <body>
     
     <div class="h1-banner-title"><h1>Bipolar Junction Transistor</h1></div>
@@ -251,46 +277,21 @@ Transistor models such as the&nbsp;<em>Glenn poon model</em> are responsible for
 <div id="frequently-asked-questions-faqs"><div class="faq-section mb30" id="Frequently-Asked-Questions-–-FAQs"><h2><span class="faq-heading">Frequently Asked Questions – FAQs</span></h2><div class="faq-schema"><div itemscope="" itemtype="https://schema.org/FAQPage"><section class="faq-item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question"><div class="faq-num">Q1 </div><div class="faq-rhs"><h3 class="faq-item-ques" itemprop="name">Who invented BJT?</h3><div itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer"><div itemprop="text">
 <p>BJT was invented by W.H Brattin, Bardeen, and William Shockley.</p>
 </div></div></div></section><section class="faq-item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question"><div class="faq-num">Q2 </div><div class="faq-rhs"><h3 class="faq-item-ques" itemprop="name">What are the operating regions of BJT?</h3><div itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer"><div itemprop="text">
-<p>The operating regions of BJT are:</p>
-<ul>
-<li>Forward active or active region</li>
-<li>Reverse active or inverted region</li>
-<li>Saturation</li>
-<li>Cut-off</li>
-</ul>
-</div></div></div></section><section class="faq-item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question"><div class="faq-num">Q3 </div><div class="faq-rhs"><h3 class="faq-item-ques" itemprop="name">What are the applications of BJT?</h3><div itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer"><div itemprop="text">
-<p>Following are the applications of Bipolar Junction Transistor:</p>
-<ul>
-<li>It is used as an amplifier</li>
-<li>It is used as an oscillator</li>
-<li>It is used as a demodulator</li>
-</ul>
-</div></div></div></section><section class="faq-item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question"><div class="faq-num">Q4 </div><div class="faq-rhs"><h3 class="faq-item-ques" itemprop="name">What happens if the transistor is not biased properly?</h3><div itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer"><div itemprop="text">
-<p>Following is the list of consequences if the transistor is not biased properly:</p>
-<ul>
-<li>The work efficiency of the transistor reduces</li>
-<li>There will be a distortion in the output signal</li>
-<li>The operating point may shift</li>
-<li>Transistor parameters will change</li>
-</ul>
-</div></div></div></section><section class="faq-item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question"><div class="faq-num">Q5 </div><div class="faq-rhs"><h3 class="faq-item-ques" itemprop="name">Why is there a maximum limit for the collector supply voltage for a transistor?</h3><div itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer"><div itemprop="text">
-<p>There is a maximum limit for the collector supply voltage for a transistor because when the collector current is increased rapidly there are chances of transistor getting damaged. To avoid this, the voltage in the collector should have a maximum limit.</p>
-</div></div></div></section></div></div></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-        
-        
+<p>The operating regions of BJT are:<br>
+Active region<br>
+Saturation region<br>
+Cut-off region</p>
+</div></div></div></section><section class="faq-item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question"><div class="faq-num">Q3 </div><div class="faq-rhs"><h3 class="faq-item-ques" itemprop="name">What is the function of BJT?</h3><div itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer"><div itemprop="text">
+<p>BJT amplifies or magnifies a signal.</p>
+</div></div></div></section><section class="faq-item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question"><div class="faq-num">Q4 </div><div class="faq-rhs"><h3 class="faq-item-ques" itemprop="name">What are the different configurations of BJT?</h3><div itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer"><div itemprop="text">
+<p>The different configurations of BJT are:<br>
+- Common Emitter Configuration<br>
+- Common Base Configuration<br>
+- Common Collector Configuration</p>
+</div></div></div></section></div></div></div></div></div></div></div></div></div></div></div></div></div></article>
+			
+			
 
 </body>
 </html>
+ 
